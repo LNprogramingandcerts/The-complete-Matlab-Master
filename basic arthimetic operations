@@ -1,0 +1,13 @@
+firstNumber = 6;
+secondNumber = 2;
+someOtherNumber = 7;
+
+addition = firstNumber + secondNumber;
+
+subtraction = someOtherNumber - secondNumber;
+
+multiplication = firstNumber * someOtherNumber;
+
+division = firstNumber / secondNumber;
+
+powering = firstNumber^secondNumber;
