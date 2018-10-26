@@ -1,0 +1,21 @@
+integer, boolean, are given automatically
+
+myName = 'Tod'
+
+amIAlive = false
+
+Command Window
+myName = 'Tod'
+
+amIAlive = false
+
+int2str(2.2)
+format loose
+num2str(2.2)
+str2double('Fn344334')
+
+Command Window
+int2str(2.2)
+format loose
+num2str(2.2)
+str2double('Fn344334')
