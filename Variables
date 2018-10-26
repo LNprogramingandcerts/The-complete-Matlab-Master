@@ -1,0 +1,8 @@
+r = 50;
+
+
+circumference = 3.14 * 2 * r
+
+area = 3.14 * r * r
+
+variables assign values in matlab
