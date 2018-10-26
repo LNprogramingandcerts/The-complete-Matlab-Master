@@ -1,0 +1,4 @@
+int2str(2.2);
+num2str(2.2);
+
+suppress output for the code on the particular line
