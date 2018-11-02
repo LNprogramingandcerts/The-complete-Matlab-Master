@@ -1,0 +1,8 @@
+%% Relational Operators
+
+lessThan = 1 < 1
+greaterThan = 1 > 2
+equalTo = 1 == 2
+greaterThanorEqualTo = 1 >= 2
+lessThanorEqualTo = 1 <= 2
+NotEqual = 1 ~= 2
