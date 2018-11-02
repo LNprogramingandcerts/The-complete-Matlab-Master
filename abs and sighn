@@ -1,0 +1,8 @@
+%abs
+abs(-5)
+abs(5)
+abs(-3343)
+%sign
+sign(-5)
+sign(0)
+sign(65)
