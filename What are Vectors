@@ -1,0 +1,14 @@
+%% Vectors
+
+myFirstVector = [5 2 3 8 10];
+
+mySecondVector = [1 2 3 4 5 6 7 8 9 10];
+
+oneToThousandVector = 1:1000;
+
+minusTenToEighty = -10:89;
+
+minusTen = -10:2:8;
+
+oneToOneTho = linspace(1,1000, 1000);
+%Only generated 100 numbers
