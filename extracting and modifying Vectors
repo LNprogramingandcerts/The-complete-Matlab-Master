@@ -1,0 +1,10 @@
+collectedData = [5 2 9 4 5 6 7];
+lessCollectedData = [1 2 3 4];
+
+firstThreeE1 = [collectedData(1) collectedData(2) collectedData(3)];
+newFirstThreeE1 = collectedData(2:3);
+subVectorToEnd = collectedData(4:end) .* 3;
+
+collectedData(1:4) = collectedData(2:5) .* 3;
+
+collectedData(1:4) = collectedData(1:4) + lessCollectedData
