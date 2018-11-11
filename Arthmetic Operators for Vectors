@@ -1,0 +1,20 @@
+% Vectors to work with
+
+firstVector = [1 2 3 4];
+secondVector = [1 2 3 4];
+
+addition = firstVector + secondVector;
+subtraction = firstVector - secondVector;
+
+
+addtionWIthNum = firstVector + 5;
+subtractionWIthNum = firstVector - 5;
+mutiWIthNum = firstVector * 5;
+diviWIthNum = firstVector / 5;
+
+recommendProteinIntake = 150;
+proteinWeekOne = [100 120 175 134 143 176 150];
+differenceInTake = proteinWeekOne - recommendProteinIntake;
+
+
+multi = firstVector * secondVector;
