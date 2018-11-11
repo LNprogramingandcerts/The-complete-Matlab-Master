@@ -1,0 +1,13 @@
+%%Addition and Subtraction Two Vectors
+% Vectors to work with
+
+
+firstVector = [1 2 3 ];
+secondVector = [3 5 4];
+
+%% Dot Product
+dotProductVI = firstVector * secondVector';
+dotProductVII = dot(firstVector, secondVector);
+%transpose is the secondVector'
+
+crossProduct = cross(firstVector, secondVector)
