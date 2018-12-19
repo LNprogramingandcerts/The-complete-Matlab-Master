@@ -1,0 +1,39 @@
+1. Generate a random image, that is 500 by 500 pixels, and visualize it
+2. Extract the pixels that have a gradient over 180 and visualize them
+3. Increase the whiteness of gray gradients that are bellow 150 by 50% and 
+4. Read a black and white image and visualize it
+5. Extract a subimage from the image and visualize it
+
+blackAndWHiteImage = randi([0 255], 500, 500);
+chess = imread('chessBandW.jpg');
+
+imageToGreyScale = mat2gray(blackandWhiteImage, [0 255])
+;imshow(blackAndWhiteImage)
+
+mostlyWhiteImage = blackAndWhiteImage(blackAndWhiteImage > 180);
+mostlyWWHiteMat = vec2mat(mostlyWhiteImage, floor(sqrt(length(mostlyWHiteImage))));
+mostlyWhiteMate = mostlyWhiteMat(1:end - (dize(mostlyWhiteMat, 1) - (size(mostlyWhiteMat, 2))), :);
+mostlyWhiteGrayScale = mat2gray(mostlyWHiteMat, [0 255]);
+
+blackToWhiteImage = blackAndWhiteImage:
+blackToWhite(blackToWhiteImage(:, :) < 150) = blackToWHitImage(blackToWhiteImage(:, :) < 150) * 1.5;
+blackToWhiteGrayscale = mat2gray(blackToWhiteImage, [0 255]);
+
+chessFigureCol= 870;
+chessFigureRow =  87;
+chessFigureWidth = 170;
+chessFigureHeight = 300;
+
+chessFigure = chess(chessFigureRow: (chessFigureRow + chessFigureHeight),... chessFigureCol:chessFigureWidth)
+
+figure
+imshow(mostlyToGrayscale)
+
+figure
+imshow(blackToWhiteGrayscale)
+
+figure
+imshow(mostlyWhiteGrayscale)
+
+ figure
+ imshow(chess)
