@@ -1,0 +1,11 @@
+firstMatrix = [ 1 2 3; 3 5 6; 4 3 4 5;];
+vector = [1 2 3 4 ];
+
+lengthOFMatrix = length(firstMatrix);
+sizeOfVector = size(vector)
+sizeOfMatrix = size(firstMatrix)
+rowSize = size(firstMatrix, 1)
+colSize = size(firstMatrix, 2)
+
+elementsInMatrix = size(firstMatrix, 1) * size(firstMatrix, 2)
+elementsInMatrixV2 - numel(firstMatrix)
