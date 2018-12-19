@@ -1,0 +1,7 @@
+overTheCaloriesLimit = dietTrack(:, dietTrack(4, :) > 1900)
+bellowTheCaloriesLimit = dietTrack(3:4, dietTrack(4, :) < 1900)
+
+bellowTheCaloriesLimitV2 = find(dietTrack(4, :) < 2000)
+
+extractedRawData = dietTrack([1 3], dietTrack(2, :) < 290;
+extractedData = extractedData(:, 2:3)
